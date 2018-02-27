@@ -1,7 +1,7 @@
 // Output untuk Input nama = '' dan peran = ''
 "Nama harus diisi!"
 
-var nama = '';{
+if(nama === '' && peran ===''); {
   alert('Nama harus diisi');
 }
 

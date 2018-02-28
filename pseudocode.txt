@@ -29,16 +29,6 @@ Buatlah algoritma/pseudocode untuk menentukan apakah suatu tahun merupakan tahun
 Store “tahun” with any number
 Store “kabisat” with tahun habis di bagi 4 dan tidak habis di bagi 100 dan tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
 
---------------------
-IF “tahun” dibagi “kabisat”
-  DO “tahun kabisat”
-Else
-  DO “tahun non kabisat”
-End if
-
-Display “tahun”
-
---- atau ------
 
 IF "tahun" > 0
   CALCULATE “tahun” mod 4
@@ -57,7 +47,7 @@ Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuc
 STORE “mesin cuci nyala - semua baju sudah masuk mesin cuci” with 0
 WHILE  “mesin cuci nyala - semua baju sudah masuk mesin cuci” < 20
   ADD ““mesin cuci nyala - semua baju sudah masuk mesin cuci” + 1
-DISPLAY ????
+END WHILE
 
 4. Periksa Kuku
 
@@ -72,3 +62,4 @@ WHILE “guru periksa kuku” < 40
   DISPLAY “murid di puji”
   ELSE
   DISPLAY “murid di hukum”
+END WHILE

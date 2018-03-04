@@ -31,7 +31,7 @@ Store “kabisat” with tahun habis di bagi 4 dan tidak habis di bagi 100 dan t
 
 
 IF "tahun" > 0
-  CALCULATE “tahun” mod 4
+  CALCULATE ((“tahun” mod 4 ===0) && (“tahun” mod 100 !==0)) && ((("tahun" mod 4)) && (("tahun" mod 100)) && (("tahun" mod 400)))
   STORE "remainder" sebagai hasil pembagian
 
 IF "remainder" = 0

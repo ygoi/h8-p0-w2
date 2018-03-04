@@ -23,22 +23,32 @@ var tahun; 1945 // assign nilai variabel tahun disini! (dengan angka antara 1900
 
 */
 
-var tanggal = 31
-var bulan = 12
-var tahun = 1986
+var tanggal = 12
+var bulan = null
+var tahun = 1970
 switch (bulan) {
-  case 1:   { console.log('Januari'); break; }
-  case 2:   { console.log('Februari'); break; }
-  case 3:   { console.log('Maret'); break; }
-  case 4:   { console.log('April'); break; }
-  case 5:   { console.log('Mei'); break; }
-  case 6:   { console.log('Juni'); break; }
-  case 7:   { console.log('Juli'); break; }
-  case 8:   { console.log('Agustus'); break; }
-  case 9:   { console.log('September'); break; }
-  case 10:   { console.log('Oktober'); break; }
-  case 11:   { console.log('November'); break; }
-  case 12:   { console.log('Desember'); break; }
+  case 1:   { (tanggal + ' Januari ' + tahun);
+    break; }
+  case 2:   { (tanggal + ' Februari ' + tahun);
+    break; }
+  case 3:   { (tanggal + ' Maret ' + tahun);
+    break; }
+  case 4:   { (tanggal + ' April ' + tahun);
+    break; }
+  case 5:   { (tanggal + ' Mei ' + tahun);
+    break; }
+  case 6:   { (tanggal + ' Juni ' + tahun);
+    break; }
+  case 7:   { (tanggal + ' Juli ' + tahun);
+    break; }
+  case 8: { (tanggal + ' Agustus ' + tahun);
+    break; }
+  case 9: { (tanggal + ' September ' + tahun);
+    break; }
+  case 10: { (tanggal + ' Oktober ' + tahun);
+    break; }
+  case 11:  { (tanggal + ' November ' + tahun);
+    break; }
+  default:  { ('Isi bulan antara 1-12');
+    break; }
 }
-
-console.log(tanggal, bulan, tahun)
